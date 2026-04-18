@@ -102,7 +102,7 @@ function render(keyword=""){
     const grouped = groupData(rawData);
 
     Object.keys(grouped)
-    .sort((a,b)=>grouped[b].length - grouped[a].length)
+    // .sort((a,b)=>grouped[b].length - grouped[a].length)
     .forEach(k=>{
         const list = grouped[k].filter(i=>match(i, keyword, k));
         if(!list.length) return;
