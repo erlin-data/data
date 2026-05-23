@@ -68,3 +68,10 @@ button {
 .hl {
     padding: 0 2px;
 }
+
+.footer{
+    padding:20px;
+    text-align:center;
+    color:#666;
+    font-size:14px
+}
