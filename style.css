@@ -1,0 +1,71 @@
+body {
+    font-family: Arial;
+    background: #f5f6fa;
+    margin: 0;
+}
+
+.header {
+    background: #667eea;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+input {
+    width: 60%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: none;
+}
+
+button {
+    margin-left: 10px;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.card {
+    background: #fff;
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
+
+.card-header {
+    padding: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    background: #eee;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+}
+
+.item {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.item:nth-child(odd) {
+    background: #fafafa;
+}
+
+.item a {
+    text-decoration: none;
+    color: #333;
+}
+
+.hl {
+    background: yellow;
+    padding: 0 2px;
+}
