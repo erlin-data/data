@@ -67,9 +67,12 @@ button {
 
 .hl {
     background: yellow;
-    color: black !important;
-    display: inline;
     padding: 0 2px;
+}
+
+.card-header .hl {
+    background: transparent;
+    color: inherit;
 }
 
 .footer{
