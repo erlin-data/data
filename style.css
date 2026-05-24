@@ -66,6 +66,12 @@ button {
 }
 
 .hl {
+    background: yellow;
+    padding: 0 2px;
+}
+
+.h1 {
+    background: yellow;
     padding: 0 2px;
 }
 
