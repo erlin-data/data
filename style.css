@@ -67,10 +67,8 @@ button {
 
 .hl {
     background: yellow;
-    padding: 0 2px;
-}
-
-.h {
+    color: black !important;
+    display: inline;
     padding: 0 2px;
 }
 
